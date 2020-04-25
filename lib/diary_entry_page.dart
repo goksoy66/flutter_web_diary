@@ -101,7 +101,7 @@ class _DiaryEntryPageState extends State<DiaryEntryPage> {
                   controller: titleController,
                   style: Theme.of(context)
                       .textTheme
-                      .headline3
+                      .headline
                       .copyWith(color: Colors.black87),
                   decoration: InputDecoration(
                     border: InputBorder.none,
@@ -115,14 +115,14 @@ class _DiaryEntryPageState extends State<DiaryEntryPage> {
                   maxLines: null,
                   style: Theme.of(context)
                       .textTheme
-                      .headline6
+                      .headline
                       .copyWith(color: Colors.black87, height: 1.7),
                   decoration: InputDecoration.collapsed(
                     hintText: 'Tell your diary what happened',
                     border: InputBorder.none,
                     hintStyle: Theme.of(context)
                         .textTheme
-                        .headline6
+                        .headline
                         .copyWith(color: Colors.grey.shade400),
                   ),
                 ),

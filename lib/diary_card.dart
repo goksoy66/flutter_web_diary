@@ -49,7 +49,7 @@ class DiaryCard extends StatelessWidget {
                             children: <Widget>[
                               Text(
                                 diaryEntry.title,
-                                style: Theme.of(context).textTheme.headline5,
+                                style: Theme.of(context).textTheme.headline,
                               ),
                               PopUpMenu(diaryEntry: diaryEntry)
                             ],
@@ -61,7 +61,7 @@ class DiaryCard extends StatelessWidget {
                               maxLines: 3,
                               style: Theme.of(context)
                                   .textTheme
-                                  .subtitle2
+                                  .subtitle
                                   .copyWith(height: 1.75),
                             ),
                           ),
